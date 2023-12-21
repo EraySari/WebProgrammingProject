@@ -10,5 +10,7 @@ namespace WebProject.Data
             : base(options)
         {
         }
+        public DbSet<WebProject.Models.User>? User { get; set; }
+        public DbSet<WebProject.Models.Ucak>? Ucak { get; set; }
     }
 }
