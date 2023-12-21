@@ -58,13 +58,12 @@ namespace WebProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UcakID,Departure,Arrival,PlaneModel,Price,Seat,DateTime")] Ucak ucak)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Add(ucak);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(ucak);
+            
+            
         }
 
         // GET: Ucaks/Edit/5
@@ -95,8 +94,8 @@ namespace WebProject.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 try
                 {
                     _context.Update(ucak);
@@ -114,8 +113,8 @@ namespace WebProject.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            return View(ucak);
+            //}
+           // return View(ucak);
         }
 
         // GET: Ucaks/Delete/5

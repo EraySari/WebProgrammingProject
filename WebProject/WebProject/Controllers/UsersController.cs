@@ -48,7 +48,7 @@ namespace WebProject.Controllers
         // GET: Users/Create
         public IActionResult Create()
         {
-            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "UcakID");
+            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "PlaneModel");
             return View();
         }
 
@@ -59,14 +59,14 @@ namespace WebProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UserID,UserName,FirstName,LastName,Email,KoltukNo,Password,UcakID")] User user)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "UcakID", user.UcakID);
-            return View(user);
+            //}
+            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "PlaneModel", user.UcakID);
+           // return View(user);
         }
 
         // GET: Users/Edit/5
@@ -82,7 +82,7 @@ namespace WebProject.Controllers
             {
                 return NotFound();
             }
-            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "UcakID", user.UcakID);
+            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "PlaneModel", user.UcakID);
             return View(user);
         }
 
@@ -98,8 +98,8 @@ namespace WebProject.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 try
                 {
                     _context.Update(user);
@@ -117,9 +117,9 @@ namespace WebProject.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "UcakID", user.UcakID);
-            return View(user);
+            //}
+            ViewData["UcakID"] = new SelectList(_context.Set<Ucak>(), "UcakID", "PlaneModel", user.UcakID);
+            //return View(user);
         }
 
         // GET: Users/Delete/5
