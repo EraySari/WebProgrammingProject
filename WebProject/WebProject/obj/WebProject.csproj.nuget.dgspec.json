@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abdullah Bilgi\\Desktop\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {}
+    "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abdullah Bilgi\\Desktop\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {
+    "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abdullah Bilgi\\Desktop\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
+        "projectUniqueName": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
         "projectName": "WebProject",
-        "projectPath": "C:\\Users\\Abdullah Bilgi\\Desktop\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
-        "packagesPath": "C:\\Users\\Abdullah Bilgi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abdullah Bilgi\\Desktop\\WebProgrammingProject\\WebProject\\WebProject\\obj\\",
+        "projectPath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
+        "packagesPath": "C:\\Users\\Eray\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdullah Bilgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eray\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
