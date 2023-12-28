@@ -6,6 +6,7 @@
     },
 };
 
+
 export const loadFlightsResults = async function (queryFrom,queryTo) {
     try {
         //girilen query degerine gore api cagiracak
@@ -24,6 +25,7 @@ export const loadFlightsResults = async function (queryFrom,queryTo) {
                 seat: flg.seat,
                 time: flg.dateTime,
                 users: flg.users,
+                reservedSeat:[],
             };
         });
     } catch (err) {
@@ -33,6 +35,5 @@ export const loadFlightsResults = async function (queryFrom,queryTo) {
 
 export const loadFlight = function (id) {
     const data = flight.search.result.find((flg) => flg.id === Number(id)); //idye gore arama yapip tiklanilan flighti getirecek
-
     return data;
 };

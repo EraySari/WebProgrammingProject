@@ -27,14 +27,20 @@ const password = document.querySelector(".password");
 const logined = document.querySelectorAll(".logined");
 const welcomeText = document.querySelector(".welcome");
 const bookingBtn = document.querySelector(".bookingBtn");
+const about = document.querySelector(".aboutUs");
 const section1 = document.getElementById("section--1");
 const section2 = document.getElementById("section--2");
 
-
+let currentFlight;
 bookingBtn.addEventListener("click", function (e) {
     e.preventDefault();
     //console.log(section2.getBoundingClientRect());
     section2.scrollIntoView({ behavior: "smooth" });
+});
+about.addEventListener("click", function (e) {
+    e.preventDefault();
+    //console.log(section2.getBoundingClientRect());
+    console.log(model.flight.search.result);
 });
 
 const obsCallback = function (entries, observe) {
@@ -85,18 +91,19 @@ const searchResults = async function () {
 };
 const controlFlight = function () {
     const id = window.location.hash.slice(1);
-    recipeView.render(model.loadFlight(id), true);
-    console.log('loop');
+    currentFlight = model.loadFlight(id);
+
+    recipeView.render(currentFlight, true);
     controlBuying();
+
 };
 
 const controlBuying = function () {
-    console.log('a');
     buyTicket.selectSeat();
-    buyTicket.bookingTicket();
 
-    
+    buyTicket.bookingTicket(currentFlight);
 }
+
 
 searchView.addHandlerRender(searchResults);
 recipeView.addHandlerRender(controlFlight);

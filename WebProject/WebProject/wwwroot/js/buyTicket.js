@@ -1,18 +1,23 @@
 ﻿import View from './viewD.js';
 
+
 class BuyTicket extends View {
 
     _parentElement = document.querySelector(".add-recipe-window");
     _window = document.querySelector('.add-recipe-window');
     _overlay = document.querySelector('.overlay');
     _selectedSeat;
+    _selectedSeatNumber;
+    _currentFl;
 
-
-    bookingTicket() {
-        document.querySelector(".buy").addEventListener("click", this.toggleWindow.bind(this));
+    bookingTicket(currentFlight) {
+        document.querySelector(".buy").addEventListener("click", this.buying.bind(this));
+        this._currentFl = currentFlight;
+        
     }
+
     
-    toggleWindow() {
+    buying() {
         this._overlay.classList.toggle('hidden');
         this._window.classList.toggle('hidden');
         this.succesMessage(this._selectedSeat.getAttribute('for'));
@@ -22,6 +27,7 @@ class BuyTicket extends View {
         this._selectedSeat.previousElementSibling.setAttribute('disabled', '');
         document.querySelector('.buy').classList.toggle('hidden');
 
+        this._currentFl.reservedSeat.push(this._selectedSeat.getAttribute('for'));
     }
 
     selectSeat() {
@@ -36,7 +42,7 @@ class BuyTicket extends View {
         this._selectedSeat = seat;
         document.querySelector('.buy').classList.toggle('hidden');
         document.querySelector('.recipe__ingredients').scrollIntoView({ behavior: 'smooth' });
-        
+        this._selectedSeatNumber = this._selectedSeat.getAttribute('for');
     }
 
     succesMessage(info) {
@@ -49,6 +55,7 @@ class BuyTicket extends View {
 
         this._clear();
         this._parentElement.insertAdjacentHTML('afterbegin', message);
+        console.log(this._currentFl);
         
     }
     closeWindow() {
