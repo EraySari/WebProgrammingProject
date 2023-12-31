@@ -1,4 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
 @inject SignInManager<UserDetail> SignInManager
 @inject UserManager<UserDetail> UserManager
 
@@ -18,10 +21,10 @@ else
 {
         <ul class="nav__links">
         <li class="nav__item logined">
-            <a class="nav__link nav__link--btn btn--open-sign" asp-area="Identity" asp-page="/Account/Register">Sign Up</a>
+                <a class="nav__link nav__link--btn btn--open-sign" asp-area="Identity" asp-page="/Account/Register">@Localizer["Sign"]</a>
         </li>
         <li class="nav__item logined">
-            <a class="nav__link nav__link--btn btn--open-login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                <a class="nav__link nav__link--btn btn--open-login" asp-area="Identity" asp-page="/Account/Login">@Localizer["login"]</a>
         </li>
         </ul>
 }

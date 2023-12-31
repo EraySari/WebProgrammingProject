@@ -648,3 +648,15 @@ C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\We
 C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.genruntimeconfig.cache
 C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\ref\WebProject.dll
 C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\bin\Debug\net6.0\libman.json
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\bin\Debug\net6.0\en-US\WebProject.resources.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\bin\Debug\net6.0\tr-TR\WebProject.resources.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Home.Index.en-US.resources
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Home.Index.tr-TR.resources
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.csproj.GenerateResource.cache
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\en-US\WebProject.resources.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\tr-TR\WebProject.resources.dll
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Shared.Index.en-US.resources
+C:\Users\Eray\OneDrive\Masaüstü\New folder\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Shared.Index.tr-TR.resources

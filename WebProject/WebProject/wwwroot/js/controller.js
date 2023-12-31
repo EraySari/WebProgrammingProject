@@ -92,7 +92,12 @@ const searchResults = async function () {
 const controlFlight = function () {
     const id = window.location.hash.slice(1);
     currentFlight = model.loadFlight(id);
+    const reservedSeat = localStorage.getItem(`${currentFlight.id}`);
 
+
+    (reservedSeat != null && reservedSeat.length > 0) ? recipeView.setReservedSeat(reservedSeat) : recipeView.setReservedSeat(0);
+
+    
     recipeView.render(currentFlight, true);
     controlBuying();
 
@@ -102,7 +107,10 @@ const controlBuying = function () {
     buyTicket.selectSeat();
 
     buyTicket.bookingTicket(currentFlight);
+
+  
 }
+
 
 
 searchView.addHandlerRender(searchResults);

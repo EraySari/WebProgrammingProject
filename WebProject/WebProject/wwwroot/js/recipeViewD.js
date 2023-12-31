@@ -2,19 +2,18 @@
 
 class recipeView extends view {
     _parentElement = document.querySelector(".recipe");
-    _seatView;
+    _reserveSeat;
+
+
     addHandlerRender(handler) {
         window.addEventListener("hashchange", handler);
     }
-    addHandlerUpdatePerson() { }
-    addMyTickets() {
-        //bookmark ekleme mantigiyla satin alma ekle biletlerim kisminda gözüksün
-    }
+
     _generateMarkup() {
         //ekrana gönderilecek html kodu
         const head = `
       </figure>
-
+    
 
     <div class="recipe__ingredients">
       <h2 class="heading--2">${this._data.departure} - ${this._data.arrival}</h2>
@@ -53,32 +52,35 @@ class recipeView extends view {
         return head + seat + end;
     }
     _seatsView(seats) {
+        
         let returnSeat;
+        //const localeReserved = localStorage.getItem(`${this._data.id}`);
+        console.log('reserved:  ',this._reserveSeat);
         for (let i = 1; i <= seats / 6; i++) {
             returnSeat += `<li class="row row--${i}">
     <ol class="seats" type="A">
       <li class="seat">
-        <input type="checkbox" id="${i}A" />
+        <input type="checkbox" ${this._reserveSeat != 0 && this._reserveSeat.includes(`${i}A`) ? 'disabled' : ''} id="${i}A" />
         <label class="seatLb" for="${i}A">${i}A</label>
       </li>
       <li class="seat">
-        <input type="checkbox" id="${i}B" />
+        <input type="checkbox" ${this._reserveSeat != 0 && this._reserveSeat.includes(`${i}B`) ? 'disabled' : ''} id="${i}B" />
         <label class="seatLb" for="${i}B">${i}B</label>
       </li>
       <li class="seat">
-        <input type="checkbox" id="${i}C" />
+        <input type="checkbox" ${this._reserveSeat != 0 && this._reserveSeat.includes(`${i}C`) ? 'disabled' : ''} id="${i}C" />
         <label class="seatLb" for="${i}C">${i}C</label>
       </li>
       <li class="seat">
-        <input type="checkbox" id="${i}D" />
+        <input type="checkbox" ${this._reserveSeat != 0 && this._reserveSeat.includes(`${i}D`) ? 'disabled' : ''} id="${i}D" />
         <label class="seatLb" for="${i}D">${i}D</label>
       </li>
       <li class="seat">
-        <input type="checkbox" id="${i}E" />
+        <input type="checkbox" ${this._reserveSeat != 0 && this._reserveSeat.includes(`${i}E`) ? 'disabled' : ''} id="${i}E" />
         <label class="seatLb" for="${i}E">${i}E</label>
       </li>
       <li class="seat">
-        <input type="checkbox" id="${i}F" />
+        <input type="checkbox" ${this._reserveSeat != 0 && this._reserveSeat.includes(`${i}F`) ? 'disabled' : ''} id="${i}F" />
         <label class="seatLb" for="${i}F">${i}F</label>
       </li>
     </ol>
@@ -89,7 +91,9 @@ class recipeView extends view {
 
         return returnSeat;
     }
-
+    setReservedSeat(seat) {
+    this._reserveSeat = seat;
+    }
 
 }
 

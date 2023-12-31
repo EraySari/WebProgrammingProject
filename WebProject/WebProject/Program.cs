@@ -1,15 +1,23 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using WebProject.Data;
 using WebProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+//builder.Services.AddRazorPages().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
 
 builder.Services.AddIdentity<UserDetail, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
 
@@ -23,9 +31,27 @@ builder.Services.AddIdentity<UserDetail, IdentityRole>(options => options.SignIn
 
 
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix);
+
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    var supportedCultures = new[]
+    {
+        new CultureInfo("tr-TR"),
+        new CultureInfo("en-EN")
+    };
+
+    options.DefaultRequestCulture = new RequestCulture("en-US");
+
+    options.SupportedUICultures = supportedCultures;
+});
 
 var app = builder.Build();
+app.UseRequestLocalization();
+//var supportedCultures = new[] { "tr", "en" };
+//var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0]).AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

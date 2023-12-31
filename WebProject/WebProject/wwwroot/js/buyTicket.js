@@ -28,6 +28,9 @@ class BuyTicket extends View {
         document.querySelector('.buy').classList.toggle('hidden');
 
         this._currentFl.reservedSeat.push(this._selectedSeat.getAttribute('for'));
+
+        localStorage.setItem(`${this._currentFl.id}`, `${this._currentFl.reservedSeat}`);
+
     }
 
     selectSeat() {

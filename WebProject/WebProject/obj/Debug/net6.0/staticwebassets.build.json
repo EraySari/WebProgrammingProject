@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gzfs1Tk9d4brGxJOM92wZU24p/DNHTI7izZipPSOF44=",
+  "Hash": "ENdCvi6LukcuxjK1fWNh8sRavov4G37H8IxJ3fsOhyg=",
   "Source": "WebProject",
   "BasePath": "_content/WebProject",
   "Mode": "Default",
@@ -1103,40 +1103,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\wwwroot\\img\\js1.png",
-      "SourceId": "WebProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\wwwroot\\",
-      "BasePath": "_content/WebProject",
-      "RelativePath": "img/js1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\js1.png"
-    },
-    {
-      "Identity": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\wwwroot\\img\\plane.png",
-      "SourceId": "WebProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\wwwroot\\",
-      "BasePath": "_content/WebProject",
-      "RelativePath": "img/plane.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\plane.png"
     },
     {
       "Identity": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\wwwroot\\img\\pngegg.png",
