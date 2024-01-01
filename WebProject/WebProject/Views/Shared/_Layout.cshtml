@@ -1,9 +1,4 @@
-﻿@using Microsoft.AspNetCore.Mvc.Localization
-
-@inject IHtmlLocalizer SharedLocalizer;
-
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -35,10 +30,7 @@
                 @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
                 {
                      <li class="nav__item">
-                        <a class="nav__link bookingBtn" href="#section--2">@SharedLocalizer["book"]</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link aboutUs" href="#">About Us</a>
+                        <a class="nav__link bookingBtn" href="#section--2">Booking</a>
                 </li>
 
 
@@ -53,7 +45,7 @@
         </nav>
 
     </header>
-    @RenderBody();
+    @RenderBody()
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

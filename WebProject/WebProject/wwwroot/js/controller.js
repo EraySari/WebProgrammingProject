@@ -27,7 +27,6 @@ const password = document.querySelector(".password");
 const logined = document.querySelectorAll(".logined");
 const welcomeText = document.querySelector(".welcome");
 const bookingBtn = document.querySelector(".bookingBtn");
-const about = document.querySelector(".aboutUs");
 const section1 = document.getElementById("section--1");
 const section2 = document.getElementById("section--2");
 
@@ -36,11 +35,6 @@ bookingBtn.addEventListener("click", function (e) {
     e.preventDefault();
     //console.log(section2.getBoundingClientRect());
     section2.scrollIntoView({ behavior: "smooth" });
-});
-about.addEventListener("click", function (e) {
-    e.preventDefault();
-    //console.log(section2.getBoundingClientRect());
-    console.log(model.flight.search.result);
 });
 
 const obsCallback = function (entries, observe) {
