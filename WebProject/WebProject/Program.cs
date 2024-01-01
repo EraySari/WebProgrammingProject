@@ -40,7 +40,7 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     var supportedCultures = new[]
     {
         new CultureInfo("tr-TR"),
-        new CultureInfo("en-EN")
+        new CultureInfo("en-US")
     };
 
     options.DefaultRequestCulture = new RequestCulture("en-US");

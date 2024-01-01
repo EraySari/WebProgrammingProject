@@ -930,8 +930,6 @@ C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProjec
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.csproj.AssemblyReference.cache
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Home.Index.en-US.resources
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Home.Index.tr-TR.resources
-C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Shared.Index.en-US.resources
-C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Shared.Index.tr-TR.resources
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.csproj.GenerateResource.cache
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.AssemblyInfoInputs.cache
@@ -959,3 +957,5 @@ C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProjec
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.pdb
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.genruntimeconfig.cache
 C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\ref\WebProject.dll
+C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Resources.Views.Shared._Layout.tr-TR.resources
+C:\Users\Eray\OneDrive\Masaüstü\WEB\WebProgrammingProject\WebProject\WebProject\obj\Debug\net6.0\WebProject.Views.Shared._Layout.en-US.resources

@@ -117,19 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="book" xml:space="preserve">
+    <value>Bilet Al</value>
+  </data>
   <data name="from" xml:space="preserve">
-    <value>Departure</value>
+    <value>Nereden</value>
   </data>
   <data name="login" xml:space="preserve">
-    <value>Login</value>
+    <value>Giris Yap</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Ara</value>
   </data>
   <data name="Sign" xml:space="preserve">
-    <value>Sign Up</value>
+    <value>Kayit Ol</value>
   </data>
   <data name="to" xml:space="preserve">
-    <value>Arrival</value>
+    <value>Nereye</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value>WHERE DREAMS TAKE FLIGHT. BEYOND BORDERS ABOVE EXPECTATIONS</value>
+    <value>HAYALLERİN UÇTUĞU YER. SINIRLARIN ÖTESİNDE BEKLENTİLERİN ÜZERİNDE</value>
   </data>
 </root>
