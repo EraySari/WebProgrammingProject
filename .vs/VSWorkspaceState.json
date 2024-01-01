@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebProject",
+    "\\WebProject\\WebProject",
+    "\\WebProject\\WebProject\\Areas\\Identity",
+    "\\WebProject\\WebProject\\Areas\\Identity\\Pages",
+    "\\WebProject\\WebProject\\Areas\\Identity\\Pages\\Account",
+    "\\WebProject\\WebProject\\wwwroot",
+    "\\WebProject\\WebProject\\wwwroot\\js"
+  ],
+  "SelectedNode": "\\WebProject\\WebProject\\wwwroot\\js\\buyTicket.js",
+  "PreviewInSolutionExplorer": false
+}

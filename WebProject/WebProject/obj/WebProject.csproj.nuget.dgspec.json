@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {}
+    "C:\\Users\\Eray\\OneDrive\\Masaüstü\\WEB\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {
+    "C:\\Users\\Eray\\OneDrive\\Masaüstü\\WEB\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
+        "projectUniqueName": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\WEB\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
         "projectName": "WebProject",
-        "projectPath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
+        "projectPath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\WEB\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
         "packagesPath": "C:\\Users\\Eray\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\obj\\",
+        "outputPath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\WEB\\WebProgrammingProject\\WebProject\\WebProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eray\\AppData\\Roaming\\NuGet\\NuGet.Config",

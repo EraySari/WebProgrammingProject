@@ -25,7 +25,7 @@
             <form action="#">
                 <div class="flight-details">
                     <div class="input-box fromTo">
-                        <span class="details">Destination</span>
+                            <span class="details">@Localizer["from"]</span>
                         <select name="destinationfrom" id="destinationFr">
                             <option value="" disabled selected>From</option>
                             <option value="istanbul">Istanbul</option>
@@ -33,6 +33,7 @@
                             <option value="Izmir">Izmir</option>
                         </select>
 
+                            <span class="details">@Localizer["to"]</span>
                         <select name="destinationto" id="destinationTo">
                             <option value="" disabled selected>To</option>
                             <option value="istanbul">Istanbul</option>
@@ -50,38 +51,7 @@
 
         <div class="search-results">
             <ul class="results">
-                <li class="preview">
-                    <a class="preview__link preview__link--active" href="#23456">
-                        <figure class="preview__fig">
-                            <img src="img/js1.png" alt="Test" />
-                        </figure>
-                        <div class="preview__data">
-                            <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
-                            <p class="preview__publisher">The Pioneer Woman</p>
-                            <div class="preview__user-generated">
-                                <svg>
-                                    <use href=""></use>
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="preview">
-                    <a class="preview__link preview__link--active" href="#23456">
-                        <figure class="preview__fig">
-                            <img src="img/js1.png" alt="Test" />
-                        </figure>
-                        <div class="preview__data">
-                            <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
-                            <p class="preview__publisher">The Pioneer Woman</p>
-                            <div class="preview__user-generated">
-                                <svg>
-                                    <use href=""></use>
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-                </li>
+
             </ul>
         </div>
         <div class="recipe">
@@ -90,31 +60,8 @@
     </div>
 </section>
 
-<div class="modal modalSign hidden">
-    <button class="btn--close-modal btn--close-sign">&times;</button>
-    <h2 class="modal__header">
-        It's time to <span class="highlight">travel</span><br />
-    </h2>
 
-</div>
 
-<div class="modal modalLogin hidden">
-    <button class="btn--close-modal btn--close-login">&times;</button>
-    <h2 class="modal__header">Login</h2>
-    <form action="#" class="modal__form">
-        <label>Username</label>
-        <input type="text" class="username" />
-        <label>Password</label>
-        <input type="password" class="password" />
-        <div class="login--error__cont hidden">
-            <p class="login--error__message">
-                Username or password is wrong. Try Again!
-            </p>
-        </div>
-
-        <button class="btn btnLogin">Login &rarr;</button>
-    </form>
-</div>
 <div class="overlay hidden"></div>
 
 <div class="add-recipe-window hidden">

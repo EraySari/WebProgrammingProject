@@ -20,11 +20,19 @@ class recipeView extends view {
       <ul class="recipe__ingredient-list">
 
       <li class="recipe__ingredient">
-
         <div class="recipe__quantity">${this._data.seat} Seat</div>
-        <div class="recipe__quantity">${this._data.time}</div>
-        <div class="recipe__quantity">${this._data.planeModel}</div>
-        <div class="recipe__description">
+      </li>
+
+      <li class="recipe__ingredient">
+            <div class="recipe__quantity">${this._data.time}</div>
+      </li>
+
+      <li class="recipe__ingredient">
+            <div class="recipe__quantity">${this._data.planeModel}</div>
+      </li>
+
+      <li class="recipe__ingredient">
+                    <div class="recipe__description">
           ${this._data.price}€
         </div>
       </li>

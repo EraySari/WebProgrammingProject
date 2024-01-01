@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W2pGEowTe6DIo6LfKOiNSdjXqLgpE6g57VT2eifEaq977zkBee8MH/rOj/+4u/Wa/MDVHYBhmr1K5KYMPE6gvA==",
+  "dgSpecHash": "Elc39cVcqvRGq30NA0BdL/D6oUbjS2HP3ONKtUrCRskD43BNnUuuzgj0WA7PKj0gJh62OA7Hf80jVAnGtoPo2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\New folder\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
+  "projectFilePath": "C:\\Users\\Eray\\OneDrive\\Masaüstü\\WEB\\WebProgrammingProject\\WebProject\\WebProject\\WebProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eray\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Eray\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

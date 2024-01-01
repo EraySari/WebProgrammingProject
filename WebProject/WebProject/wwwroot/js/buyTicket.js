@@ -44,7 +44,7 @@ class BuyTicket extends View {
     setSelectedSeat(seat) {
         this._selectedSeat = seat;
         document.querySelector('.buy').classList.toggle('hidden');
-        document.querySelector('.recipe__ingredients').scrollIntoView({ behavior: 'smooth' });
+        console.log('a');
         this._selectedSeatNumber = this._selectedSeat.getAttribute('for');
     }
 
